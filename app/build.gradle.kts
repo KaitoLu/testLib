@@ -47,7 +47,7 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            create<MavenPublication>("release") {
+            create<MavenPublication>("maven") {
                 // Applies the component for the release build variant.
                 from(components["release"])
                 // You can then customize attributes of the publication as shown below.
