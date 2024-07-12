@@ -42,6 +42,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(kotlin("script-runtime"))
+
 }
 
 afterEvaluate {
@@ -53,7 +55,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = "com.github.KaitoLu"
                 artifactId = "testLib"
-                version = "0.0.1"
+                version = "0.0.2"
             }
         }
     }
