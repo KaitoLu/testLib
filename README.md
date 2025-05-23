@@ -1,2 +1,2 @@
 # testLib
-test 123
+library導入練習
